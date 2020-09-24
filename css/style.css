@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a:hover{
+    text-decoration: none!important;
+}
+
+.top-nav-container .row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+
+}
+.top-nav{
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+    padding: 0px 30px;
+}
+
+.contact a{
+    color: #fff;
+}
+.contact i{
+    color: #fff;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.contact a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-section i{
+    float: right;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: brown;
+    box-shadow: 0px 0px 1px 2px #fb13c3;
+}
+
+.top-nav .col-6{
+    padding-right: 0px!important;
+}
+.social-section i:hover{
+    background-color: brown;
+    color: #fff;
+    box-shadow: 0px 0px 1px 2px #fbb913
+}
+
+/* navbar */
+.navbar{
+    background-color:black;
+}
+.nav-container{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.top-logo-img{
+    padding-top: 5px;
+}
+.top-logo-img img{
+    height: 40px;
+}
+
+
+.menu-container li{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    
+
+
+}
+
+.menu-container a{
+    color: #fff;
+}
+
+.menu-container a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* end-navabr */
+
+
+/* header-section */
+
+
+
+.my-offset{
+    width: 100%;
+    margin: auto;
+    margin: auto;
+}
+
+.my-text-three{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.my-text-three h2{
+    padding-top: 40px;
+}
+.my-text-three h3{
+    padding: 30px 0px;
+}
+
+.my-text{
+    padding-bottom: 50px;
+}
+.my-text h2{
+    color: red;
+    font-size: 80px;
+    padding-bottom: 50px;
+    
+}
+
+.my-text h2:hover{
+    color: red;
+    text-decoration: none;
+
+}
+/* end-header-section */
+
+
+
+
+
+/* footer */
+.main-footer{
+    background-color: black;
+    height: 500px;
+    
+}
+
+.footer-container{
+   
+}
+.footer-left{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    
+}
+
+.footer-right{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.footer-left-one{
+    height: 400px;
+}
+
+.ft-text h3{
+    padding: 20px 0px;
+    color:#fff;
+
+}
+
+.ft-text a{
+    color: #5f96d2!important;
+}
+.footer-left-one a:hover{
+    text-decoration: none!important;
+}
+
+.footer-left-two{
+    height: 400px;
+    
+}
+
+
+
+.ft-text-two h4{
+    color: #fff;
+}
+
+.ft-text-two a{
+    text-align: left!important;
+  
+    color: #fff!important;
+}
+
+.ft-text-two a:hover{
+    text-decoration: none;
+}
+.my-footer-btn{
+    padding: 7px 14px;
+    background-color: #428bca;
+    color: #fff;
+    outline: 0px;
+    border: none;
+    border-radius: 7px;
+    margin: 33px 0px;
+}
+
+.my-footer-btn:hover{
+    background-color: #2f8fe4;
+}
+.my-footer-btn:focus{
+    outline: 0px;
+    border: none;
+}
+
+
+
+.footer-right-one{
+    height: 400px;
+   
+}
+.footer-right-one i{
+    color: #11ec0d;
+}
+
+.footer-right-two{
+    height: 400px;
+    
+}
+.footer-right-one :nth-child(2){
+    color: gray;
+}
+.footer-right-one :nth-child(3){
+    color: gray;
+}
+.footer-right-one :nth-child(4){
+    color: gray;
+}
+.footer-right-one a{
+    color: #fff;
+
+}
+.footer-right-one a:hover{
+    color: #10CCA1;
+    text-decoration: none;
+}
+
+.footer-social-section i{
+    float: right;
+    font-size: 25px;
+    padding: 9px;
+    margin-top: 5px;
+    margin-right:12px;
+    background-color: #fff!important;
+    border-radius: 50%;
+    color: brown!important;
+    box-shadow: 0px 0px 1px 2px #fb13c3!important;
+
+}
+.footer-social-section i:hover{
+    background-color: brown!important;
+    color: #fff!important;
+    box-shadow: 0px 0px 1px 2px #fbb913!important;
+}
+
+.subscribe input{
+    width: 100%;
+    height: 52px;
+    background-color: #202020;
+    border: none;
+    text-align: left;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 22px;
+    border-radius: 3px;
+}
+
+.subscribe i{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 10px;
+    color: brown;
+    border-style: solid;
+    position: absolute;
+    top: 21%;
+    left: 79%;
+}
+.subscribe i:hover{
+    color: #fff;
+    background-color: brown;
+}
+
+.copyright{
+    width: 50%;
+    margin: auto;
+    color: #fff;
+}
+/* end-footer */

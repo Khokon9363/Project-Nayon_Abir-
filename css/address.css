@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .total-container{
+      width: 80%;
+      margin: auto;
+
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  .form-head{
+      width: 100%;
+      text-align: center;
+      background-color: #fff;
+
+  }
+
+  .form-head h2{
+      color: #000;
+      font-size: 40px;
+      padding-top: 30px;
+  }
+  .form-head h3{
+      color:red;
+      font-size: 20px;
+  }
+  .form-head h4{
+      color:#000;
+      margin: 0;
+      padding-bottom: 30px;
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password],input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+.form-middle{
+    
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding-bottom: 40px;
+    
+}
+.middle-one{
+    width: 80%;
+    height: 20px;
+    background-color: #b8b8e2;
+    position: absolute;
+    left: 10%;
+    
+    
+}
+
+.middle-two{
+    width: 70%;
+    height: 20px;
+    background-color: #2222dc;
+    
+    
+    
+    
+}
+  .form-middle span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    top: -10px;
+  }
+  .form-middle .blank-two{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 35%;
+    top: -10px;
+  }
+  .form-middle .blank-three{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 57%;
+    top: -10px;
+  }
+  .form-middle i{
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    position: absolute;
+    left: 22%;
+    top: -6px;
+    color: #fff;
+    padding-left: 4px;
+  }
+  .form-middle .icon-two{
+    width: 20px;
+    height: 20px;
+    font-size: 26px;
+    position: absolute;
+    left: 38%;
+    top: -6px;
+    color: #fff;
+    padding-left: 4px;
+  }
+
+
+  .middle-text{
+      width: 100%;
+      height: 40px;
+      padding-left: 107px;
+  }
+.middle-text li{
+    padding-top: 35px;
+    list-style: none;
+    float: left;
+    font-size: large;
+    padding-left: 120px;
+}
+
+input{
+    padding-top: 10px;
+}
